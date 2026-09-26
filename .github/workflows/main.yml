@@ -52,7 +52,7 @@ jobs:
             docker run -d \
               --name flask-demo \
               --restart unless-stopped \
-              -p 8000:8000 \
+              -p 5001:5001 \
               ${{ secrets.DOCKER_USERNAME }}/flask-demo:latest
 
             echo "Deployment completed!"
