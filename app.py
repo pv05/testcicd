@@ -5,7 +5,7 @@ from flask import Flask, jsonify
 
 load_dotenv()
 
-APP_NAME = os.getenv("APP_NAME", "default-app6969")
+APP_NAME = os.getenv("APP_NAME", "default-app786")
 GREETING = os.getenv("GREETING", "Hello")
 
 app = Flask(__name__)
